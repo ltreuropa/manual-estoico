@@ -359,14 +359,13 @@ export default function Home() {
                 key={i}
                 className="absolute rounded-full bg-blue-400/10"
                 style={{
-                  width: `${Math.random() * 10 + 5}px`,
-                  height: `${Math.random() * 10 + 5}px`,
-                  top: `${Math.random() * 100}%`,
-                  left: `${Math.random() * 100}%`,
-                  animation: `pulse ${Math.random() * 5 + 3}s infinite`,
-                }}
-              ></div>
-            ))}
+                width: `${Math.random() * 10 + 5}px`,
+                height: `${Math.random() * 10 + 5}px`,
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`
+                  }}
+                  />
+                ))}
           </div>
         </div>
 
