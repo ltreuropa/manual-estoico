@@ -1070,9 +1070,9 @@ export default function Home() {
               <BookOpen className="h-6 w-6 text-[#ffd700]" />
               <span className="text-xl font-bold text-white">Manual Estoico</span>
             </div>
-          <div className="mt-8 text-center text-sm">
-            <p>© {new Date().getFullYear()} Manual Estoico - Todos os direitos reservados.</p>
-          </div>
+            <div className="mt-8 text-center text-sm">
+              <p>© {new Date().getFullYear()} Manual Estoico - Todos os direitos reservados.</p>
+            </div>
             <div className="flex flex-col md:flex-row gap-4 md:gap-8 text-sm">
               <Link href="" className="hover:text-white transition-colors">
                 Termos de Uso
@@ -1084,5 +1084,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
+    </div>
+  );
 }
